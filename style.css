@@ -20,7 +20,7 @@ body {
     -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
     transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
     margin-top: -100%;
-    margin-left: 10%;
+    margin-left: -5%;
 }
   
 .button:hover {
@@ -54,6 +54,15 @@ h4 {
 }
 
 .globos {
-    width: 45%;
+    width: 100%;
     margin-top: 125%;
+    margin-left: -90%;
+    transform: rotate(333deg);
+}
+
+.globos1 {
+    width: 100%;
+    margin-top: 350%;
+    margin-left: -25%;
+    transform: rotate(22deg);
 }
