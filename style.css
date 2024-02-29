@@ -20,7 +20,7 @@ body {
     -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
     transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
     margin-top: -100%;
-    margin-left: -5%;
+    margin-left: 10%;
 }
   
 .button:hover {
@@ -54,15 +54,31 @@ h4 {
 }
 
 .globos {
-    width: 100%;
+    /* width: 100%; */
     margin-top: 125%;
-    margin-left: -90%;
+    margin-left: -145%;
     transform: rotate(333deg);
 }
 
 .globos1 {
-    width: 100%;
+    /* width: 100%; */
     margin-top: 350%;
-    margin-left: -25%;
+    margin-left: -20%;
     transform: rotate(22deg);
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    margin-left: -200%;
+    margin-top: 210%;
+    transform: rotate(319deg);
+    font-family: "Dancing Script", cursive;
+    color: #d38fca;
+}
+
+.globo-cont {
+    height: 90px;
+    width: 90px;
+    margin-top: -30%;
 }
