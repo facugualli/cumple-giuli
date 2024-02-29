@@ -1,0 +1,59 @@
+body {
+    background-image: url("./fondo.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+.button {
+    border: none;
+    font: normal 40px/normal "Warnes", Helvetica, sans-serif;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    margin-top: -100%;
+    margin-left: 10%;
+}
+  
+.button:hover {
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+}
+
+h3 {
+    font-size: 60px;
+    text-decoration-line: line-through;
+    margin-top: -50%;
+    margin-left: 105%;
+}
+
+h2 {
+    margin-left: 20%;
+    margin-top: 0%;
+}
+
+h4 {
+    font-size: 75px;
+    margin-top: -60%;
+    margin-left: 150%;
+}
+
+.sailor {
+    width: 50%;
+    margin-left: -37%;
+    margin-top: -55%;
+    position: absolute;
+
+}
+
+.globos {
+    width: 45%;
+    margin-top: 125%;
+}
