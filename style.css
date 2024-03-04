@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url("./fondo.jpg");
     background-size: 100%;
@@ -53,20 +57,8 @@ h4 {
 
 }
 
-.globos {
-    margin-left: -210%;
-    margin-top: 125%;
-    transform: rotate(333deg);
-}
 
-.globos1 {
-    /* width: 100%; */
-    margin-top: 350%;
-    margin-left: -20%;
-    transform: rotate(22deg);
-}
-
-p {
+.by-giuli {
     color: white;
     font-size: 45px;
     margin-left: -70%;
@@ -76,8 +68,54 @@ p {
     color: #d38fca;
 }
 
-.globo-cont {
-    height: 90px;
+h5 {
+    position: absolute;
+    font-size: 15px;
+    margin-left: 55%;
+    margin-top: -27%;
+}
+
+a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10%;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.mas {
+    height: 49px;
     width: 90px;
-    margin-top: -30%;
+    margin-top: 200%;
+    position: absolute;
+    border: 3px solid;
+    background: #f5deb375;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+
+iframe {
+    position: absolute;
+    margin-top: 430%;
+}
+
+.texto {
+    position: absolute;
+    width: 300px;
+    padding: 15px;
+    margin-top: 300%;
+    text-align: center;
+    background: wheat;
+    border-radius: 4px;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+}
+
+.flecha {
+    position: absolute;
+    margin-top: 165%;
+    transform: rotate(270deg);
+    height: 80px;
+    width: 80px;
 }
